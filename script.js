@@ -13,7 +13,7 @@ async function executar(cmd) {
 
   const relacaoComandoSecao = {
       empresas: "cadastros", pessoas: "cadastros", servicos: "cadastros", usuarios: "cadastros", perfil: "cadastros",
-      funcionarios: "cadastros", produtos: "cadastros", faturamento: "cadastros", dav: "cadastros", especies: "cadastros", cotacao: "cadastros",
+      funcionarios: "cadastros", atendentes: "cadastros", produtos: "cadastros", faturamento: "cadastros", dav: "cadastros", especies: "cadastros", cotacao: "cadastros",
       grupos: "cadastros", subgrupos: "cadastros", marcas: "cadastros",
       validacaopessoas: "validacoes", validacaoprodutos: "validacoes", validacaofuncionarios: "validacoes",
       validacaoespecies: "validacoes", validacaousuarios: "validacoes", validacaocotacao: "validacoes",
@@ -54,11 +54,11 @@ const comandos = {
   navegacao: "Navegação do Sistema",  
   empresas: "Cadastro de Empresas",
   pessoas: "Cadastro de Clientes",
+  atendentes: "Cadastro de Atendentes",
   produtos: "Cadastro de Produtos",
   servicos: "Cadastro de Serviços",    
   usuarios: "Cadastro de Usuários",
-  perfil: "Cadastro de Perfil de Acesso",  
-  
+  perfil: "Cadastro de Perfil de Acesso",    
   faturamento: "Cadastro de Vendas",
   dav: "Cadastro de DAV",  
   especies: "Cadastro de Espécies",
@@ -239,7 +239,7 @@ async function executarTodos() {
   });
   
   const comandos = [
-    'login', 'seguranca', 'navegacao', 'empresas', 'pessoas', 'servicos', 'fornecedor',
+    'login', 'seguranca', 'navegacao', 'empresas', 'pessoas', 'atendentes', 'servicos', 'fornecedor',
     'usuarios','perfil', 'funcionarios','produtos', 'faturamento', 'dav', 'especies','cotacao',
     'grupos','subgrupos','marcas', 'edicaopessoas', 
     'edicaoprodutos', 'edicaofuncionarios','edicaocotacao','edicaoespecies',  

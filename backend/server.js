@@ -36,6 +36,7 @@ app.post('/executar', (req, res) => {
     usuarios: 'npx playwright test tests/cadastros/usuarios.spec.ts --headed',
     perfil: 'npx playwright test tests/cadastros/perfil.spec.ts --headed',
     funcionarios: 'npx playwright test tests/cadastros/funcionarios.spec.ts --headed',
+    atendentes: 'npx playwright test tests/cadastros/atendentes.spec.ts --headed',
     produtos: 'npx playwright test tests/cadastros/produtos.spec.ts --headed',
     servicos: 'npx playwright test tests/cadastros/servicos.spec.ts --headed',
     faturamento: 'npx playwright test tests/cadastros/faturamento.spec.ts --headed',
