@@ -53,7 +53,7 @@ const comandos = {
   seguranca: "Segurança do Sistema",  
   navegacao: "Navegação do Sistema",  
   empresas: "Cadastro de Empresas",
-  pessoas: "Cadastro de Clientes Não Contribuintes",
+  pessoas: "Cadastro de Clientes",
   pessoacontribuinte: "Cadastro de Clientes Contribuintes",
   fornecedor: "Cadastro de Fornecedores",
   usuarios: "Cadastro de Usuários",
