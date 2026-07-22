@@ -53,6 +53,7 @@ const comandos = {
   seguranca: "Segurança do Sistema",  
   navegacao: "Navegação do Sistema",  
   empresas: "Cadastro de Empresas",
+  agendamento: "Cadastro de Agendamentos",
   pessoas: "Cadastro de Clientes",
   atendentes: "Cadastro de Atendentes",
   produtos: "Cadastro de Produtos",
@@ -110,7 +111,7 @@ let resultadoCmd = comandos[cmd] || "Comando não encontrado";
 }
 
 function toggleSection(id) {
-  const sections = ["cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao", "finalizacao"];
+  const sections = ["cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao", "agenda"];
   
   sections.forEach(sec => {
     const el = document.getElementById(sec);
@@ -191,7 +192,7 @@ async function executarTodos() {
   });
   
   const comandos = [
-    'login', 'seguranca', 'navegacao', 'empresas', 'pessoas', 'atendentes', 'servicos',
+    'login', 'seguranca', 'navegacao', 'empresas', 'agendamento', 'pessoas', 'atendentes', 'servicos',
     'produtos', 'categorias', 'planos',
     'edicaopessoas', 'edicaoprodutos',    
     'buscapessoas', 'buscaprodutos',         

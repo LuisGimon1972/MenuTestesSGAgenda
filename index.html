@@ -69,6 +69,21 @@
   </table>
 </button>
 
+<button class="btn-sectioncadt" onclick="toggleSection('agenda')" 
+      style="height:40px; line-height:32px; padding:0; font-size:14px;">
+    <table style="width:100%; border-collapse:collapse; height:100%;">
+      <tr>
+        <td style="width:30px; margin-left: 10px;">📑</td>
+        <td style="text-align:center;">Testes de Agendamento</td>
+        <td style="width:30px; margin-right: 10px;">▼</td>
+      </tr>
+    </table>
+  </button>
+  <div id="agenda" style="display:none">
+    <button class="btn-sectioncad" onclick="executar('agendamento')">Cadastrar Agendamento</button>            
+    <button class="btn-sectioncad" onclick="executar('finalizar')">Finalizar Agendamento</button>
+  </div> 
+
 
   <button class="btn-sectioncadt" onclick="toggleSection('cadastros')" 
         style="height:40px; line-height:32px; padding:0; font-size:14px;">
@@ -111,22 +126,7 @@
     <button class="btn-sectioncad" onclick="executar('edicaogrupos')">Edição de Grupos</button>        
     <button class="btn-sectioncad" onclick="executar('edicaosubgrupos')">Edição de Subgrupos</button>        
     <button class="btn-sectioncad" onclick="executar('edicaomarcas')">Edição de Marcas</button>        
-  </div> 
-
-  <button class="btn-sectioncadt" onclick="toggleSection('finalizacao')" 
-      style="height:40px; line-height:32px; padding:0; font-size:14px;">
-    <table style="width:100%; border-collapse:collapse; height:100%;">
-      <tr>
-        <td style="width:30px; margin-left: 10px;">📑</td>
-        <td style="text-align:center;">Testes de Agendamento</td>
-        <td style="width:30px; margin-right: 10px;">▼</td>
-      </tr>
-    </table>
-  </button>
-  <div id="finalizacao" style="display:none">
-    <button class="btn-sectioncad" onclick="executar('agendamento')">Cadastrar Agendamento</button>            
-    <button class="btn-sectioncad" onclick="executar('finalizar')">Finalizar Agendamento</button>
-  </div> 
+  </div>   
 
   <button class="btn-sectioncadt" onclick="toggleSection('buscas')" 
       style="height:40px; line-height:32px; padding:0; font-size:14px;">
