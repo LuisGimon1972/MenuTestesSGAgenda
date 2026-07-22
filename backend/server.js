@@ -34,6 +34,7 @@ app.post('/executar', (req, res) => {
    
     agendamento: 'npx playwright test tests/agendamentos/agendamento.spec.ts --headed',
     finalizar: 'npx playwright test tests/agendamentos/finalizar.spec.ts --headed',
+    cancelar: 'npx playwright test tests/agendamentos/cancelar.spec.ts --headed',
 
     perfil: 'npx playwright test tests/cadastros/perfil.spec.ts --headed',    
     atendentes: 'npx playwright test tests/cadastros/atendentes.spec.ts --headed',
