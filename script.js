@@ -209,4 +209,5 @@ async function executarTodos() {
   for (const cmd of comandos) {
     await executar(cmd)
   }
+  
 }
