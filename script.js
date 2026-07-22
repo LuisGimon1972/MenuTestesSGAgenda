@@ -54,6 +54,7 @@ const comandos = {
   navegacao: "Navegação do Sistema",  
   empresas: "Cadastro de Empresas",
   agendamento: "Cadastro de Agendamentos",
+  finalizar: "Finalizar Agendamentos",
   pessoas: "Cadastro de Clientes",
   atendentes: "Cadastro de Atendentes",
   produtos: "Cadastro de Produtos",
@@ -192,7 +193,7 @@ async function executarTodos() {
   });
   
   const comandos = [
-    'login', 'seguranca', 'navegacao', 'empresas', 'agendamento', 'pessoas', 'atendentes', 'servicos',
+    'login', 'seguranca', 'navegacao', 'empresas', 'agendamento', 'finalizar', 'pessoas', 'atendentes', 'servicos',
     'produtos', 'categorias', 'planos',
     'edicaopessoas', 'edicaoprodutos',    
     'buscapessoas', 'buscaprodutos',         
