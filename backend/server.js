@@ -62,7 +62,10 @@ app.post('/executar', (req, res) => {
     desbuscaprodutos: 'npx playwright test tests/desempenho/desbuscaprodutos.spec.ts --headed',    
 
     navegacaomobile: 'npx playwright test tests/responsividade/navegacaomobile.spec.ts --headed',    
-    navegacaotablet: 'npx playwright test tests/responsividade/navegacaotablet.spec.ts --headed',    
+    navegacaotablet: 'npx playwright test tests/responsividade/navegacaotablet.spec.ts --headed',   
+    agendamentomobile: 'npx playwright test tests/responsividade/agendamentomobile.spec.ts --headed',   
+    agendamentotablet: 'npx playwright test tests/responsividade/agendamentotablet.spec.ts --headed',   
+    
     pessoa_fatura: 'npx playwright test tests/integracao/pessoa_fatura.spec.ts --headed',    
     pessoa_dav: 'npx playwright test tests/integracao/pessoa_dav.spec.ts --headed',    
     

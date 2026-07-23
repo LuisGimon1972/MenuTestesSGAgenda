@@ -77,6 +77,8 @@ const comandos = {
   desbuscaprodutos:"Desempenho de Buscas Produtos",  
   navegacaomobile:"Responsividade Navegação Mobile",
   navegacaotablet:"Responsividade Navegação Tablet",
+  agendamentomobile: "Agendamento Mobile",
+  agendamentotablet: "Agendamento Tablet",
   pessoa_fatura:"Integração Cliente e Faturamento",
   pessoa_dav:"Integração Cliente e DAV",
   funcionario_fatura:"Integração Funcionário e Faturamento",
@@ -205,7 +207,7 @@ async function executarTodos() {
     'validacaogrupos', 'validacaosubgrupos', 'validacaomarcas',    
     'desempenhologin', 'cadastropessoas', 'cadastroprodutos',    
     'desbuscapessoas', 'desbuscaprodutos', 
-    'navegacaomobile', 'navegacaotablet', 
+    'navegacaomobile', 'navegacaotablet', 'agendamentomobile', 'agendamentotablet', 
     'pessoa_fatura', 'pessoa_dav'   
   ]
 
