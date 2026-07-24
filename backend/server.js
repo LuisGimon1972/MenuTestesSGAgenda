@@ -29,7 +29,9 @@ app.post('/executar', (req, res) => {
     login: 'npx playwright test tests/setup.spec.ts --headed',
     navegacao: 'npx playwright test tests/navegacao.spec.ts --headed',
     seguranca: 'npx playwright test tests/seguranca.spec.ts --headed',    
-    empresas: 'npx playwright test tests/cadastros/empresas.spec.ts --headed',
+    empresasbr: 'npx playwright test tests/cadastros/empresasbr.spec.ts --headed',
+    empresaspy: 'npx playwright test tests/cadastros/empresaspy.spec.ts --headed',
+    
     pessoas: 'npx playwright test tests/cadastros/pessoas.spec.ts --headed',
    
     agendamento: 'npx playwright test tests/agendamentos/agendamento.spec.ts --headed',

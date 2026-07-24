@@ -52,7 +52,8 @@ const comandos = {
   login: "Autenticação do Sistema",
   seguranca: "Segurança do Sistema",  
   navegacao: "Navegação do Sistema",  
-  empresas: "Cadastro de Empresas",
+  empresasbr: "Cadastro de Empresas do Brasil",
+  empresaspy: "Cadastro de Empresas do Paraguai",
   agendamento: "Cadastro de Agendamentos",
   finalizar: "Finalizar Agendamentos",
   cancelar: "Cancelar Agendamentos",
@@ -196,7 +197,7 @@ async function executarTodos() {
   });
   
   const comandos = [
-    'login', 'seguranca', 'navegacao', 'empresas', 
+    'login', 'seguranca', 'navegacao', 'empresasbr', 'empresaspy', 
     'agendamento', 'finalizar', 'cancelar',
     'pessoas', 'atendentes', 'servicos',
     'produtos', 'categorias', 'planos',
