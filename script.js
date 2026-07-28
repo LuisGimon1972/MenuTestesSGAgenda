@@ -72,7 +72,7 @@ const comandos = {
   buscaprodutos: "Buscas de Produtos",              
   buscacategoria: "Buscas de Categorias",              
   buscaplano: "Buscas de Planos",                        
-  edicaopessoas:"Edição de Dados Pessoas",  
+  edicaopessoas:"Edição de Dados Clientes",  
   edicaoprodutos:"Edição de Dados Produtos",
   edicaoatendente:"Edição de Dados Atendentes",
   exclusaopessoas:"Exclusão de Dados Pessoas",
