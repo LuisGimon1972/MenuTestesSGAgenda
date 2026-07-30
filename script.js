@@ -207,7 +207,7 @@ async function executarTodos() {
     'agendamento', 'finalizar', 'cancelar',
     'pessoas', 'atendentes', 'servicos',
     'produtos', 'categorias', 'planos',
-    'edicaoclientes', 'edicaoprodutos', 'edicaoatendente',       
+    'edicaoclientes', 'edicaoatendente', 'edicaoprodutos', 'edicaoservico', 
     'buscapessoas', 'buscaatendente', 'buscaprodutos', 'buscaservico', 'buscacategoria', 'buscaplano', 'buscaservicoagenda',        
     'exclusaopessoas', 'exclusaoprodutos',        
     'validacaopessoas', 'validacaousuarios', 'validacaoprodutos', 
