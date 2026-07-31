@@ -65,7 +65,7 @@ app.post('/executar', (req, res) => {
     edicaoplano: 'npx playwright test tests/edicao/edicaoplano.spec.ts --headed',   
     
     
-    exclusaopessoas: 'npx playwright test tests/exclusao/exclusaopessoas.spec.ts --headed',    
+    exclusaoclientes: 'npx playwright test tests/exclusao/exclusaoclientes.spec.ts --headed',    
     exclusaoprodutos: 'npx playwright test tests/exclusao/exclusaoprodutos.spec.ts --headed',    
     
     desempenhologin: 'npx playwright test tests/desempenho/desempenhologin.spec.ts --headed',    
