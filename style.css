@@ -301,6 +301,7 @@ button.ativo {
   border-color: #71adee !important;
   color: #fff !important;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Efeito brilhante opcional */  
+  border-radius: 8px !important;;
 }
 
 .classpara
