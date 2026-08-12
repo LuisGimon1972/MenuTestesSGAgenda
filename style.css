@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: #f5f7f8; 
   font-family: Arial;
-  color: #022569;
+  color: #020826;
 }
 
 .sidebar {
@@ -23,7 +23,7 @@ body {
   top: 60px;             /* abaixo do header (ajuste conforme altura do header) */
   left: 0;
   width: 290px;
-  background: #0b0264; 
+  background: #020826; 
   padding: 15px;
   overflow-y: auto;
   border-radius: 0 45px 0 0;
@@ -44,7 +44,7 @@ body {
   padding: 8px;
   border: 1px solid #374151;
   
-  background: #3B82F6;
+  background: #020826;
   cursor: pointer;
   color: white;
   border: none   
@@ -137,7 +137,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Alinha o título à esquerda e joga os botões para a extrema direita */
-  background: #0b0264; 
+  background: #020826; 
   color: #fff;
   padding: 14px 10px;
   z-index: 600;         
@@ -209,7 +209,7 @@ body {
 }
 
 .btn-sectioncad {   
-  background: #5694f7 !important; 
+  background: #020826 !important; 
   color: #e5e7eb !important; 
   margin-top: -6px !important;    
 }
@@ -218,14 +218,14 @@ body {
 }
 
 .btn-sectioncadt {
-  background: #3B82F6 !important; 
+  background: #020826 !important; 
   color: white !important; 
   margin-top: -6px !important;      
-  border-bottom: 2px solid #1071f0 !important;
+  border-bottom: 2px solid #020826 !important;
 }
 
 .btn-sectioncadt:hover {
-  background: #1D4ED8!important; 
+  background: #020826!important; 
 }
 /* adiciona seta no canto direito do botão */
 .btn-sectioncadt::after {
@@ -236,7 +236,7 @@ body {
 }
 
 .btn-sair {
-  background: #3B82F6 !important; 
+  background: #020826 !important; 
   color: #fff !important;                 
   border: none;
   padding: 8px 16px;           
@@ -251,7 +251,7 @@ body {
   margin: 5px 0;
   padding: 8px;
   border: none;
-  background: #3B82F6 !important;
+  background: #020826 !important;
   cursor: pointer;
   color: white !important;
   border-radius: 0 10px 0 0 ; /* só os cantos inferiores */
