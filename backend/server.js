@@ -29,44 +29,44 @@ app.post('/executar', (req, res) => {
     login: 'npx playwright test tests/setup.spec.ts --headed',
     navegacao: 'npx playwright test tests/navegacao.spec.ts --headed',
     seguranca: 'npx playwright test tests/seguranca.spec.ts --headed',    
+
     empresasbr: 'npx playwright test tests/cadastros/empresasbr.spec.ts --headed',
     empresaspy: 'npx playwright test tests/cadastros/empresaspy.spec.ts --headed',
-    
-    pessoas: 'npx playwright test tests/cadastros/pessoas.spec.ts --headed',
-   
+
     agendamento: 'npx playwright test tests/agendamentos/agendamento.spec.ts --headed',
     finalizar: 'npx playwright test tests/agendamentos/finalizar.spec.ts --headed',
     cancelar: 'npx playwright test tests/agendamentos/cancelar.spec.ts --headed',
-
-    perfil: 'npx playwright test tests/cadastros/perfil.spec.ts --headed',    
+    
+    pessoas: 'npx playwright test tests/cadastros/pessoas.spec.ts --headed',         
     atendentes: 'npx playwright test tests/cadastros/atendentes.spec.ts --headed',
+    servicos: 'npx playwright test tests/cadastros/servicos.spec.ts --headed',      
     produtos: 'npx playwright test tests/cadastros/produtos.spec.ts --headed',
     categorias: 'npx playwright test tests/cadastros/categorias.spec.ts --headed',
     planos: 'npx playwright test tests/cadastros/planos.spec.ts --headed',
-    servicos: 'npx playwright test tests/cadastros/servicos.spec.ts --headed',      
-    validacaopessoas: 'npx playwright test tests/validacoes/validacaopessoas.spec.ts --headed',
-    validacaoprodutos: 'npx playwright test tests/validacoes/validacaoprodutos.spec.ts --headed',   
-   
-    buscapessoas: 'npx playwright test tests/buscas/buscapessoas.spec.ts --headed',
-    buscaatendente: 'npx playwright test tests/buscas/buscaatendente.spec.ts --headed',
-    buscaservico: 'npx playwright test tests/buscas/buscaservico.spec.ts --headed',   
-    buscaprodutos: 'npx playwright test tests/buscas/buscaprodutos.spec.ts --headed',
-    buscacategoria: 'npx playwright test tests/buscas/buscacategoria.spec.ts --headed',
-    buscaplano: 'npx playwright test tests/buscas/buscaplano.spec.ts --headed',    
-   
+
     edicaoclientes: 'npx playwright test tests/edicao/edicaoclientes.spec.ts --headed',    
     edicaoatendente: 'npx playwright test tests/edicao/edicaoatendente.spec.ts --headed',   
     edicaoprodutos: 'npx playwright test tests/edicao/edicaoprodutos.spec.ts --headed',   
     edicaoservico: 'npx playwright test tests/edicao/edicaoservico.spec.ts --headed',   
     edicaocategoria: 'npx playwright test tests/edicao/edicaocategoria.spec.ts --headed',   
     edicaoplano: 'npx playwright test tests/edicao/edicaoplano.spec.ts --headed',       
-    
+
+    buscapessoas: 'npx playwright test tests/buscas/buscapessoas.spec.ts --headed',
+    buscaatendente: 'npx playwright test tests/buscas/buscaatendente.spec.ts --headed',
+    buscaservico: 'npx playwright test tests/buscas/buscaservico.spec.ts --headed',   
+    buscaprodutos: 'npx playwright test tests/buscas/buscaprodutos.spec.ts --headed',
+    buscacategoria: 'npx playwright test tests/buscas/buscacategoria.spec.ts --headed',
+    buscaplano: 'npx playwright test tests/buscas/buscaplano.spec.ts --headed',    
+
     exclusaoclientes: 'npx playwright test tests/exclusao/exclusaoclientes.spec.ts --headed',    
     exclusaoatendentes: 'npx playwright test tests/exclusao/exclusaoatendentes.spec.ts --headed',    
     exclusaoprodutos: 'npx playwright test tests/exclusao/exclusaoprodutos.spec.ts --headed',    
     exclusaoservicos: 'npx playwright test tests/exclusao/exclusaoservicos.spec.ts --headed',    
     exclusaocategorias: 'npx playwright test tests/exclusao/exclusaocategorias.spec.ts --headed',    
     exclusaoplanos: 'npx playwright test tests/exclusao/exclusaoplanos.spec.ts --headed',        
+    
+    validacaopessoas: 'npx playwright test tests/validacoes/validacaopessoas.spec.ts --headed',
+    validacaoprodutos: 'npx playwright test tests/validacoes/validacaoprodutos.spec.ts --headed',                  
     
     desempenhologin: 'npx playwright test tests/desempenho/desempenhologin.spec.ts --headed',    
     cadastropessoas: 'npx playwright test tests/desempenho/cadastropessoas.spec.ts --headed',    

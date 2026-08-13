@@ -12,17 +12,27 @@ async function executar(cmd) {
   }
 
   const relacaoComandoSecao = {
-      empresas: "cadastros", pessoas: "cadastros", servicos: "cadastros", 
-      funcionarios: "cadastros", atendentes: "cadastros", categorias: "cadastros", planos:"cadastros", produtos: "cadastros",       
-      grupos: "cadastros", subgrupos: "cadastros", marcas: "cadastros",
-      validacaopessoas: "validacoes", validacaoprodutos: "validacoes", validacaofuncionarios: "validacoes",
-      validacaoespecies: "validacoes", validacaousuarios: "validacoes", 
-      edicaopessoas: "edicoes", edicaofuncionarios: "edicoes", edicaoprodutos: "edicoes",
-      edicaoespecies: "edicoes", edicaocotacao: "edicoes", edicaogrupos: "edicoes",      
+      empresasbr: "empresas", empresaspy: "empresas", 
+
+      agendamento: "agenda", finalizar: "agenda", cancelar: "agenda",
+
+      pessoas: "cadastros", atendentes: "cadastros", servicos: "cadastros", 
+      produtos: "cadastros", categorias: "cadastros", planos:"cadastros",
+
+      edicaoclientes: "edicoes", edicaoatendente: "edicoes", edicaoservico: "edicoes",
+      edicaoprodutos: "edicoes", edicaocategoria: "edicoes", edicaoplano: "edicoes", 
+
+      buscapessoas: "buscas", buscaatendente: "buscas", 
+      buscaservico: "buscas", buscaprodutos: "buscas",
+      buscacategoria: "buscas", buscaplano: "buscas", 
+
       exclusaoclientes: "exclusoes", exclusaoprodutos: "exclusoes", exclusaofuncionarios: "exclusoes",      
       exclusaosubgrupos: "exclusoes", exclusaomarcas: "exclusoes",
-      buscapessoas: "buscas", buscaprodutos: "buscas", buscausuarios: "buscas",      
-      buscasubgrupos: "buscas", buscalote: "buscas", buscamarcas: "buscas", buscafuncionario: "buscas",
+      
+      validacaopessoas: "validacoes", validacaoprodutos: "validacoes", validacaofuncionarios: "validacoes",
+      validacaoespecies: "validacoes", validacaousuarios: "validacoes",      
+      
+      
       desempenhologin: "desempenho", cadastropessoas: "desempenho", cadastroprodutos: "desempenho",
       cadastrofuncionarios: "desempenho", cadastrousuarios: "desempenho", cadastroespecies: "desempenho",
       desbuscapessoas: "desempenho", desbuscaprodutos: "desempenho", desbuscafuncionarios: "desempenho",
@@ -35,7 +45,7 @@ async function executar(cmd) {
 
     const secaoAlvo = relacaoComandoSecao[cmd];
     if (secaoAlvo) {
-      const sections = ["cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao"];
+      const sections = ["empresas", "agenda", "cadastros", "edicoes", "buscas", "exclusoes", "validacoes", "desempenho", "responsividade", "integracao"];
       sections.forEach(sec => {
         const el = document.getElementById(sec);
         if (el) el.style.display = (sec === secaoAlvo) ? "block" : "none";
@@ -120,7 +130,7 @@ let resultadoCmd = comandos[cmd] || "Comando não encontrado";
 }
 
 function toggleSection(id) {
-  const sections = ["empresas","cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao", "agenda"];
+  const sections = ["empresas", "agenda", "cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao"];
   
   sections.forEach(sec => {
     const el = document.getElementById(sec);
@@ -194,7 +204,7 @@ async function executarTodos() {
   
   const btnTodos = document.querySelector(`button[onclick*='executarTodos']`);
 
-  const sections = ["empresas", "cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao"];
+  const sections = ["empresas", "agenda", "cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao"];
   sections.forEach(sec => {
     const el = document.getElementById(sec);
     if (el) el.style.display = "none";
@@ -206,7 +216,7 @@ async function executarTodos() {
     'pessoas', 'atendentes', 'servicos',
     'produtos', 'categorias', 'planos',
     'edicaoclientes', 'edicaoatendente', 'edicaoprodutos', 'edicaoservico', 'edicaocategoria', 'edicaoplano',  
-    'buscapessoas', 'buscaatendente', 'buscaprodutos', 'buscaservico', 'buscacategoria', 'buscaplano',        
+    'buscapessoas', 'buscaatendente', 'buscaservico', 'buscaprodutos', 'buscacategoria', 'buscaplano',        
     'exclusaoclientes', 'exclusaoatendentes', 'exclusaoprodutos', 
     'exclusaoservicos', 'exclusaocategorias', 'exclusaoplanos',        
     'validacaopessoas', 'validacaousuarios', 'validacaoprodutos', 
