@@ -120,7 +120,7 @@ let resultadoCmd = comandos[cmd] || "Comando não encontrado";
 }
 
 function toggleSection(id) {
-  const sections = ["cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao", "agenda"];
+  const sections = ["empresas","cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao", "agenda"];
   
   sections.forEach(sec => {
     const el = document.getElementById(sec);
@@ -194,7 +194,7 @@ async function executarTodos() {
   
   const btnTodos = document.querySelector(`button[onclick*='executarTodos']`);
 
-  const sections = ["cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao"];
+  const sections = ["empresas", "cadastros", "validacoes", "edicoes", "exclusoes", "buscas", "desempenho", "responsividade", "integracao"];
   sections.forEach(sec => {
     const el = document.getElementById(sec);
     if (el) el.style.display = "none";

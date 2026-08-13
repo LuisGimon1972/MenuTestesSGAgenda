@@ -69,6 +69,21 @@
   </table>
 </button>
 
+<button class="btn-sectioncadt" onclick="toggleSection('empresas')" 
+      style="height:40px; line-height:32px; padding:0; font-size:14px;">
+    <table style="width:100%; border-collapse:collapse; height:100%;">
+      <tr>
+        <td style="width:40px; margin-left: 10px;">🏭</td>
+        <td style="text-align:center;">Testes de Criar Empresas</td>
+        <td style="width:30px; margin-right: 10px;">▼</td>
+      </tr>
+    </table>
+  </button>
+  <div id="empresas" style="display:none">
+    <button class="btn-sectioncad submenu" onclick="executar('empresasbr')">Criar Empresa no Brasil</button>
+    <button class="btn-sectioncad submenu" onclick="executar('empresaspy')">Criar Empresa no Paraguai</button>    
+  </div> 
+
 <button class="btn-sectioncadt" onclick="toggleSection('agenda')" 
       style="height:40px; line-height:32px; padding:0; font-size:14px;">
     <table style="width:100%; border-collapse:collapse; height:100%;">
@@ -97,9 +112,7 @@
     </table>
   </button>
 
-  <div id="cadastros" style="display:none;">
-    <button class="btn-sectioncad submenu" onclick="executar('empresasbr')">Cadastro de Empresas Brasil</button>
-    <button class="btn-sectioncad submenu" onclick="executar('empresaspy')">Cadastro de Empresas Paraguai</button>    
+  <div id="cadastros" style="display:none;">    
     <button class="btn-sectioncad submenu" onclick="executar('pessoas')">Cadastro de Clientes</button>    
     <button class="btn-sectioncad" onclick="executar('atendentes')">Cadastro de Atendentes</button>
     <button class="btn-sectioncad" onclick="executar('servicos')">Cadastro de Serviços</button>
