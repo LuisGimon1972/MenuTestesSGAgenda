@@ -225,10 +225,10 @@ body {
 }
 
 .btn-sectioncadt::after {
-  content: "▼";              /* seta para baixo */
-  float: right;              /* posiciona à direita */
-  margin-left: 8px;          /* espaço entre texto e seta */
-  font-size: 12px;           /* tamanho da seta */    
+  content: "▼";              
+  float: right;              
+  margin-left: 8px;          
+  font-size: 12px;           
 }
 
 .btn-sair {
@@ -250,18 +250,17 @@ body {
   background: #020826 !important;
   cursor: pointer;
   color: white !important;
-  border-radius: 0 10px 0 0 ; /* só os cantos inferiores */
+  border-radius: 0 10px 0 0 ; 
 }
 
 .btn-primeiro:hover {
-  background: #1D4ED8 !important; /* vermelho escuro no hover */
+  background: #1D4ED8 !important; 
 }
 
 .btn-sair:hover {
-  background-color: #b30000 !important; /* vermelho escuro no hover */
+  background-color: #b30000 !important; 
 }
 
-/* Toast base */
 #toast {
   visibility: hidden;
   min-width: 250px;
@@ -280,18 +279,15 @@ body {
   opacity: 0;
 }
 
-/* Quando ativo */
 #toast.show {
   visibility: visible;
   opacity: 1;
 }
 
-/* Sucesso */
 #toast.success {
   background-color: #28a745; /* verde */
 }
 
-/* Erro */
 #toast.error {
   background-color: #dc3545; /* vermelho */
 }
@@ -309,7 +305,6 @@ button.ativo {
  font-size: 18px !important; 
  margin-top: 10px !important;
 }
-
 
 @media screen and (max-width: 820px) {
   .execucao {
